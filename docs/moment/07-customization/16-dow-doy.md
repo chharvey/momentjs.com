@@ -26,7 +26,7 @@ signature: |
   });
 ---
 
-`Locale#week.dow` should be an integer representing the first day of the week, 0 is Sunday, 1 is Monday, ..., 6 is Saturday.
+`Locale#week.dow` should be an integer representing the first day of the week, 0 is Sunday, 1 is Monday, &hellip;, 6 is Saturday.
 
 `Locale#week.doy` should be an integer. `doy` is used together with `dow` to determine the first week of the year. `doy` is calculated as `7 + dow - janX`, where `janX` is the first day of January that must belong to the first week of the year.
 

@@ -26,27 +26,27 @@ moment('gibberish').format('YYYY MM DD');         // "Invalid date"
     <tr>
       <td><b>Month</b></td>
       <td>M</td>
-      <td>1 2 ... 11 12</td>
+      <td>1 2 &hellip; 11 12</td>
     </tr>
     <tr>
       <td></td>
       <td>Mo</td>
-      <td>1st 2nd ... 11th 12th</td>
+      <td>1st 2nd &hellip; 11th 12th</td>
     </tr>
     <tr>
       <td></td>
       <td>MM</td>
-      <td>01 02 ... 11 12</td>
+      <td>01 02 &hellip; 11 12</td>
     </tr>
     <tr>
       <td></td>
       <td>MMM</td>
-      <td>Jan Feb ... Nov Dec</td>
+      <td>Jan Feb &hellip; Nov Dec</td>
     </tr>
     <tr>
       <td></td>
       <td>MMMM</td>
-      <td>January February ... November December</td>
+      <td>January February &hellip; November December</td>
     </tr>
     <tr>
       <td><b>Quarter</b></td>
@@ -61,112 +61,112 @@ moment('gibberish').format('YYYY MM DD');         // "Invalid date"
     <tr>
       <td><b>Day of Month</b></td>
       <td>D</td>
-      <td>1 2 ... 30 31</td>
+      <td>1 2 &hellip; 30 31</td>
     </tr>
     <tr>
       <td></td>
       <td>Do</td>
-      <td>1st 2nd ... 30th 31st</td>
+      <td>1st 2nd &hellip; 30th 31st</td>
     </tr>
     <tr>
       <td></td>
       <td>DD</td>
-      <td>01 02 ... 30 31</td>
+      <td>01 02 &hellip; 30 31</td>
     </tr>
     <tr>
       <td><b>Day of Year</b></td>
       <td>DDD</td>
-      <td>1 2 ... 364 365</td>
+      <td>1 2 &hellip; 364 365</td>
     </tr>
     <tr>
       <td></td>
       <td>DDDo</td>
-      <td>1st 2nd ... 364th 365th</td>
+      <td>1st 2nd &hellip; 364th 365th</td>
     </tr>
     <tr>
       <td></td>
       <td>DDDD</td>
-      <td>001 002 ... 364 365</td>
+      <td>001 002 &hellip; 364 365</td>
     </tr>
     <tr>
       <td><b>Day of Week</b></td>
       <td>d</td>
-      <td>0 1 ... 5 6</td>
+      <td>0 1 &hellip; 5 6</td>
     </tr>
     <tr>
       <td></td>
       <td>do</td>
-      <td>0th 1st ... 5th 6th</td>
+      <td>0th 1st &hellip; 5th 6th</td>
     </tr>
     <tr>
       <td></td>
       <td>dd</td>
-      <td>Su Mo ... Fr Sa</td>
+      <td>Su Mo &hellip; Fr Sa</td>
     </tr>
     <tr>
       <td></td>
       <td>ddd</td>
-      <td>Sun Mon ... Fri Sat</td>
+      <td>Sun Mon &hellip; Fri Sat</td>
     </tr>
     <tr>
       <td></td>
       <td>dddd</td>
-      <td>Sunday Monday ... Friday Saturday</td>
+      <td>Sunday Monday &hellip; Friday Saturday</td>
     </tr>
     <tr>
       <td><b>Day of Week (Locale)</b></td>
       <td>e</td>
-      <td>0 1 ... 5 6</td>
+      <td>0 1 &hellip; 5 6</td>
     </tr>
     <tr>
       <td><b>Day of Week (ISO)</b></td>
       <td>E</td>
-      <td>1 2 ... 6 7</td>
+      <td>1 2 &hellip; 6 7</td>
     </tr>
     <tr>
       <td><b>Week of Year</b></td>
       <td>w</td>
-      <td>1 2 ... 52 53</td>
+      <td>1 2 &hellip; 52 53</td>
     </tr>
     <tr>
       <td></td>
       <td>wo</td>
-      <td>1st 2nd ... 52nd 53rd</td>
+      <td>1st 2nd &hellip; 52nd 53rd</td>
     </tr>
     <tr>
       <td></td>
       <td>ww</td>
-      <td>01 02 ... 52 53</td>
+      <td>01 02 &hellip; 52 53</td>
     </tr>
     <tr>
       <td><b>Week of Year (ISO)</b></td>
       <td>W</td>
-      <td>1 2 ... 52 53</td>
+      <td>1 2 &hellip; 52 53</td>
     </tr>
     <tr>
       <td></td>
       <td>Wo</td>
-      <td>1st 2nd ... 52nd 53rd</td>
+      <td>1st 2nd &hellip; 52nd 53rd</td>
     </tr>
     <tr>
       <td></td>
       <td>WW</td>
-      <td>01 02 ... 52 53</td>
+      <td>01 02 &hellip; 52 53</td>
     </tr>
     <tr>
       <td><b>Year</b></td>
       <td>YY</td>
-      <td>70 71 ... 29 30</td>
+      <td>70 71 &hellip; 29 30</td>
     </tr>
     <tr>
       <td></td>
       <td>YYYY</td>
-      <td>1970 1971 ... 2029 2030</td>
+      <td>1970 1971 &hellip; 2029 2030</td>
     </tr>
       <tr>
       <td></td>
       <td>Y</td>
-      <td>1970 1971 ... 9999 +10000 +10001
+      <td>1970 1971 &hellip; 9999 +10000 +10001
         <br />
         <b>Note:</b> This complies with the ISO 8601 standard for dates past the year 9999
       </td>
@@ -174,22 +174,22 @@ moment('gibberish').format('YYYY MM DD');         // "Invalid date"
     <tr>
       <td><b>Week Year</b></td>
       <td>gg</td>
-      <td>70 71 ... 29 30</td>
+      <td>70 71 &hellip; 29 30</td>
     </tr>
     <tr>
       <td></td>
       <td>gggg</td>
-      <td>1970 1971 ... 2029 2030</td>
+      <td>1970 1971 &hellip; 2029 2030</td>
     </tr>
     <tr>
       <td><b>Week Year (ISO)</b></td>
       <td>GG</td>
-      <td>70 71 ... 29 30</td>
+      <td>70 71 &hellip; 29 30</td>
     </tr>
     <tr>
       <td></td>
       <td>GGGG</td>
-      <td>1970 1971 ... 2029 2030</td>
+      <td>1970 1971 &hellip; 2029 2030</td>
     </tr>
     <tr>
       <td><b>AM/PM</b></td>
@@ -204,78 +204,78 @@ moment('gibberish').format('YYYY MM DD');         // "Invalid date"
     <tr>
       <td><b>Hour</b></td>
       <td>H</td>
-      <td>0 1 ... 22 23</td>
+      <td>0 1 &hellip; 22 23</td>
     </tr>
     <tr>
       <td></td>
       <td>HH</td>
-      <td>00 01 ... 22 23</td>
+      <td>00 01 &hellip; 22 23</td>
     </tr>
     <tr>
       <td></td>
       <td>h</td>
-      <td>1 2 ... 11 12</td>
+      <td>1 2 &hellip; 11 12</td>
     </tr>
     <tr>
       <td></td>
       <td>hh</td>
-      <td>01 02 ... 11 12</td>
+      <td>01 02 &hellip; 11 12</td>
     </tr>
     <tr>
       <td></td>
       <td>k</td>
-      <td>1 2 ... 23 24</td>
+      <td>1 2 &hellip; 23 24</td>
     </tr>
     <tr>
       <td></td>
       <td>kk</td>
-      <td>01 02 ... 23 24</td>
+      <td>01 02 &hellip; 23 24</td>
     </tr>
     <tr>
       <td><b>Minute</b></td>
       <td>m</td>
-      <td>0 1 ... 58 59</td>
+      <td>0 1 &hellip; 58 59</td>
     </tr>
     <tr>
       <td></td>
       <td>mm</td>
-      <td>00 01 ... 58 59</td>
+      <td>00 01 &hellip; 58 59</td>
     </tr>
     <tr>
       <td><b>Second</b></td>
       <td>s</td>
-      <td>0 1 ... 58 59</td>
+      <td>0 1 &hellip; 58 59</td>
     </tr>
     <tr>
       <td></td>
       <td>ss</td>
-      <td>00 01 ... 58 59</td>
+      <td>00 01 &hellip; 58 59</td>
     </tr>
     <tr>
       <td><b>Fractional Second</b></td>
       <td>S</td>
-      <td>0 1 ... 8 9</td>
+      <td>0 1 &hellip; 8 9</td>
     </tr>
     <tr>
       <td></td>
       <td>SS</td>
-      <td>00 01 ... 98 99</td>
+      <td>00 01 &hellip; 98 99</td>
     </tr>
     <tr>
       <td></td>
       <td>SSS</td>
-      <td>000 001 ... 998 999</td>
+      <td>000 001 &hellip; 998 999</td>
     </tr>
     <tr>
       <td></td>
-      <td>SSSS ... SSSSSSSSS</td>
-      <td>000[0..] 001[0..] ... 998[0..] 999[0..]</td>
+      <td>SSSS &hellip; SSSSSSSSS</td>
+      <td>000[0..] 001[0..] &hellip; 998[0..] 999[0..]</td>
     </tr>
     <tr>
       <td><b>Time Zone</b></td>
       <td>z or zz</td>
       <td>
-        EST CST ... MST PST
+        EST CST &hellip; MST PST
         <br/>
         <b>Note:</b> as of <b>1.6.0</b>, the z/zz format tokens have been deprecated from plain moment objects. <a href="https://github.com/moment/moment/issues/162">Read more about it here.</a>
         However, they *do* work if you are using a specific time zone with the moment-timezone addon.
@@ -284,13 +284,13 @@ moment('gibberish').format('YYYY MM DD');         // "Invalid date"
     <tr>
       <td></td>
       <td>Z</td>
-      <td>-07:00 -06:00 ... +06:00 +07:00</td>
+      <td>-07:00 -06:00 &hellip; +06:00 +07:00</td>
     </tr>
     <tr>
       <td></td>
       <td>ZZ</td>
       <td>
-        -0700 -0600 ... +0600 +0700
+        -0700 -0600 &hellip; +0600 +0700
       </td>
     </tr>
     <tr>
@@ -407,7 +407,7 @@ If you are more comfortable working with strftime instead of LDML-like parsing t
 
 Calling `moment#format` without a format will default to `moment.defaultFormat`. Out of the box, `moment.defaultFormat` is the ISO8601 format `YYYY-MM-DDTHH:mm:ssZ`.
 
-As of version **2.13.0**, when in UTC mode, the default format is governed by `moment.defaultFormatUtc` which is in the format `YYYY-MM-DDTHH:mm:ss[Z]`. This returns ``Z`` as the offset, instead of ``+00:00``. 
+As of version **2.13.0**, when in UTC mode, the default format is governed by `moment.defaultFormatUtc` which is in the format `YYYY-MM-DDTHH:mm:ss[Z]`. This returns ``Z`` as the offset, instead of ``+00:00``.
 
 In certain instances, a local timezone (such as `Atlantic/Reykjavik`) may have a zero offset, and will be considered to be UTC. In such cases, it may be useful to set `moment.defaultFormat` and `moment.defaultFormatUtc` to use the same formatting.
 

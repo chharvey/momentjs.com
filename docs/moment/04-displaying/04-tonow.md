@@ -53,7 +53,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>90 seconds to 44 minutes</td>
       <td>mm</td>
-      <td>in 2 minutes ... in 44 minutes</td>
+      <td>in 2 minutes &hellip; in 44 minutes</td>
     </tr>
     <tr>
       <td>45 to 89 minutes</td>
@@ -63,7 +63,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>90 minutes to 21 hours </td>
       <td>hh</td>
-      <td>in 2 hours ... in 21 hours</td>
+      <td>in 2 hours &hellip; in 21 hours</td>
     </tr>
     <tr>
       <td>22 to 35 hours</td>
@@ -73,7 +73,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>36 hours to 25 days</td>
       <td>dd</td>
-      <td>in 2 days ... in 25 days</td>
+      <td>in 2 days &hellip; in 25 days</td>
     </tr>
     <tr>
       <td>26 to 45 days</td>
@@ -83,7 +83,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>45 to 319 days</td>
       <td>MM</td>
-      <td>in 2 months ... in 10 months</td>
+      <td>in 2 months &hellip; in 10 months</td>
     </tr>
     <tr>
       <td>320 to 547 days (1.5 years)</td>
@@ -93,7 +93,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>548 days+</td>
       <td>yy</td>
-      <td>in 2 years ... in 20 years</td>
+      <td>in 2 years &hellip; in 20 years</td>
     </tr>
   </tbody>
 </table>

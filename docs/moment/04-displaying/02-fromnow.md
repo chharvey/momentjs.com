@@ -51,7 +51,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>90 seconds to 44 minutes</td>
       <td>mm</td>
-      <td>2 minutes ago ... 44 minutes ago</td>
+      <td>2 minutes ago &hellip; 44 minutes ago</td>
     </tr>
     <tr>
       <td>45 to 89 minutes</td>
@@ -61,7 +61,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>90 minutes to 21 hours </td>
       <td>hh</td>
-      <td>2 hours ago ... 21 hours ago</td>
+      <td>2 hours ago &hellip; 21 hours ago</td>
     </tr>
     <tr>
       <td>22 to 35 hours</td>
@@ -71,7 +71,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>36 hours to 25 days</td>
       <td>dd</td>
-      <td>2 days ago ... 25 days ago</td>
+      <td>2 days ago &hellip; 25 days ago</td>
     </tr>
     <tr>
       <td>26 to 45 days</td>
@@ -81,7 +81,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>45 to 319 days</td>
       <td>MM</td>
-      <td>2 months ago ... 10 months ago</td>
+      <td>2 months ago &hellip; 10 months ago</td>
     </tr>
     <tr>
       <td>320 to 547 days (1.5 years)</td>
@@ -91,7 +91,7 @@ The breakdown of which string is displayed for each length of time is outlined i
     <tr>
       <td>548 days+</td>
       <td>yy</td>
-      <td>2 years ago ... 20 years ago</td>
+      <td>2 years ago &hellip; 20 years ago</td>
     </tr>
   </tbody>
 </table>
@@ -99,5 +99,3 @@ The breakdown of which string is displayed for each length of time is outlined i
 **Note:** From version **2.10.3**, if the target moment object is invalid the result is the localized Invalid date string.
 
 **Note:** The `ss` key was added in **2.18.0**. It is an optional threshold. It will never display UNLESS the user manually sets the ss threshold. Until the `ss` threshold is set, it defaults to the value of the `s` threshold minus 1 (so, invisible to the user).
-
-
